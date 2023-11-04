@@ -35,7 +35,7 @@ ourselves without dealing with advanced Roblox-specific concepts.
 # Installation
 To install pyblox from PyPI, you can install with pip:
 ```
-pip install roblox
+pip install py3blox
 ```
 
 To install the latest unstable version of pyblox, install [git-scm](https://git-scm.com/downloads) and run the following:
