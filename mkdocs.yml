@@ -1,0 +1,120 @@
+# Source file: https://github.com/Elttob/Fusion/blob/main/mkdocs.yml
+
+site_name: Pyblox
+site_url: https://pyblox-docs.invalidkaro.dev
+repo_name: invalidkaro/pyblox
+repo_url: https://github.com/invalidkaro/pyblox
+edit_uri: edit/main/docs/
+
+theme:
+  name: material
+
+  custom_dir: docs/overrides
+  logo: assets/logo.svg
+  favicon: assets/logo.svg
+  font:
+    text: Inter
+    code: JetBrains Mono
+  icon:
+    repo: fontawesome/brands/github
+  palette:
+  # Palette toggle for light mode
+    - media: "(prefers-color-scheme: light)"
+      scheme: default
+      toggle:
+        icon: material/weather-sunny
+        name: Switch to light mode
+
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      accent: deep purple
+      primary: black
+      toggle:
+        icon: material/weather-night 
+        name: Switch to dark mode
+
+    # Palette toggle for dark mode
+    
+
+  features:
+    - content.code.annotate
+    - search.share
+    - search.highlight
+    - navigation.path
+    - navigation.top
+    - navigation.expand
+    - navigation.instant
+    - content.code.copy
+    - content.code.select
+
+extra_css:
+  - assets/theme.css
+
+plugins:
+  - search:
+      pipeline:
+        - stemmer
+        - stopWordFilter
+        - trimmer
+  - gen-files:
+      scripts:
+        - docs/gen_doc_stubs.py
+  - literate-nav:
+      nav_file: SUMMARY.md
+  - mkdocstrings:
+      handlers:
+        python:
+          setup_commands:
+          - import sys
+          - sys.path.append("docs")
+          selection:
+            new_path_syntax: yes
+          rendering:
+            show_if_no_docstring: yes
+            show_signature_annotations: yes
+            show_root_heading: yes
+  
+
+markdown_extensions:
+  - admonition
+  - attr_list
+  - def_list
+  - meta
+  - pymdownx.betterem
+  - pymdownx.details
+  - pymdownx.tasklist:
+      custom_checkbox: true
+  - pymdownx.tabbed:
+      alternate_style: true
+  - pymdownx.inlinehilite
+  - pymdownx.keys
+  - pymdownx.magiclink
+  - pymdownx.superfences
+  - pymdownx.highlight:
+      guess_lang: false
+  - toc:
+      permalink: true
+
+extra:
+  social:
+    - icon: fontawesome/brands/github
+      link: https://github.com/invalidkaro/pyblox
+      name: pyblox on GitHub
+    - icon: fontawesome/brands/discord
+      link: https://discord.gg/QvYnZ45qAR
+      name: RoAPI Discord
+    - icon: fontawesome/brands/twitter
+      link: https://twitter.com/karoschal
+      name: karoschal on Twitter
+  version:
+    provider: mike
+  consent:
+    title: Cookie consent
+    description: >- 
+      We use cookies to recognize your repeated visits and preferences, as well
+      as to measure the effectiveness of our documentation and whether users
+      find what they're searching for. With your consent, you're helping us to
+      make our documentation better.
+    actions:
+      - accept
+      - manage
