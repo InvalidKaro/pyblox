@@ -52,4 +52,11 @@ jobs:
       - name: pypi-publish          
         uses: pypa/gh-action-pypi-publish@v1.8.10
 
+      - name: Build MkDocs
+        run: mkdocs build
 
+      - name: Deploy to GitHub Pages
+        run: |
+          mkdocs gh-deploy --force
+        env:
+          MKDOCS_BUILD: true
