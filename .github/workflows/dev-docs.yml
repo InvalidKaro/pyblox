@@ -41,3 +41,9 @@ jobs:
       - name: Deploy docs
         run: |
           mike deploy --push dev
+
+                      
+      - name: pypi-publish          
+        uses: pypa/gh-action-pypi-publish@v1.8.10
+
+
