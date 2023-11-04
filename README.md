@@ -1,5 +1,4 @@
 <p align="center" width="100%">
-    <img src="https://raw.githubusercontent.com/invalidkaro/pyblox/main/resources/textlogo.svg" alt="pyblox" height="128em" />
     <br />
 </p>
 <p align="center">
