@@ -46,7 +46,7 @@ jobs:
         uses: peaceiris/actions-gh-pages@v3
         with:
           personal_token: ${{ secrets.GITHUB_TOKEN }}
-          publish_dir: ./site  # Make sure this path matches your MkDocs build output
+          publish_dir: ./Pyblox  # Make sure this path matches your MkDocs build output
 
           
       - name: pypi-publish          
