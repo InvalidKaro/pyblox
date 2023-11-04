@@ -13,6 +13,7 @@ on:
       - "docs/**"
       - ".github/workflows/dev-docs.yml"
       - "mkdocs.yml"
+permissions: write-all
 
 jobs:
   mkdocs:
