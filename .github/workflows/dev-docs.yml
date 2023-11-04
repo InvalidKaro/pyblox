@@ -32,7 +32,9 @@ jobs:
         run: |
           pip install git+https://github.com/squidfunk/mkdocs-material.git@8.0.0b2
           pip install mkdocstrings httpx mkdocs-literate-nav mkdocs-gen-files mike
-      
+          pip install mkdocs mkdocs-material
+          pip install mkdocstrings mkdocstrings_handlers httpx mkdocs-literate-nav mkdocs-gen-files mike
+
       - name: Configure Git user
         run: |
           git config --local user.email "github-actions[bot]@users.noreply.github.com"
