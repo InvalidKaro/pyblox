@@ -4,8 +4,8 @@ with open("README.md", "r", encoding="utf-8") as fh:
     long_description = fh.read()
 
 setup_info = {
-    "name": "py3blox",
-    "version": "2.0.0",
+    "name": "py3bloxx",
+    "version": "2.1.1",
     "author": "invalidkaro",
     "author_email": "mail@invalidkaro.dev",
     "description": "Pyblox is a  object-oriented asynchronous Python wrapper for the Roblox web API.",
@@ -31,7 +31,7 @@ setup_info = {
     "python_requires": '>=3.7',
     "install_requires": [
         "httpx>=0.21.0",
-        "python-dateutil>=2.8.0"
+        "python-dateutil>=2.8.0",
     ]
 }
 
