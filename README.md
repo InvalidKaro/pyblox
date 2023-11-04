@@ -14,7 +14,7 @@
 <p align="center">
     <a href="https://discord.gg/"><img src="https://img.shields.io/discord/761603917490159676?style=flat-square&logo=discord" alt=""/></a>
     <a href="https://pypi.org/project/py3bloxx/"><img src="https://img.shields.io/pypi/v/py3bloxx?style=flat-square" alt="pyblox PyPI"/></a>
-    <a href="https://pypi.org/project/py3bloxx/"><img src="https://img.shields.io/pypi/dm/py3bloxx?style=flat-square" alt="pyblox PyPI Downloads"/></a>
+    <a href="https://pypi.org/project/py3bloxx/"><img src="https://img.shields.io/pypi/dm/py3bloxx?style=flat-square" alt="py3bloxx PyPI Downloads"/></a>
     <a href="https://pypi.org/project/py3bloxx/"><img src="https://img.shields.io/pypi/dm/py3bloxx?style=flat-square" alt="pyblox PyPI Downloads (Legacy)"/></a>
     <a href="https://pypi.org/project/py3bloxx/"><img src="https://img.shields.io/pypi/l/py3bloxx?style=flat-square" alt="pyblox PyPI License"/></a>
     <a href="https://github.com/invalidkaro/pyblox"><img src="https://img.shields.io/github/commit-activity/w/InvalidKaro/pyblox?style=flat-square" alt="pyblox GitHub Commit Activity"/></a>
