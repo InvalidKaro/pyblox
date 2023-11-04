@@ -31,7 +31,8 @@ jobs:
 
       - name: Install dependencies
         run: |
-          pip install mkdocstrings httpx mkdocs-literate-nav mkdocs-gen-files mike mkdocs mkdocs-material mkdocstrings[python]>=0.18
+          pip install mkdocstrings httpx mkdocs-literate-nav mkdocs-gen-files mike mkdocs mkdocs-material mkdocstrings[python]>=0.18 mkdocs-material[imaging]
+
 
       - name: Configure Git user
         run: |
