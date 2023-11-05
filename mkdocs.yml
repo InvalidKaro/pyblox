@@ -75,11 +75,6 @@ plugins:
             show_signature_annotations: yes
             show_root_heading: yes
   
-  - social:
-      debug_color: yellow
-      cards_layout: default/variant
-      title: Pyblox Library
-      description: Welcome to PyBlox! PyBlox is an asynchronous, object-oriented wrapper for the Roblox web API.
 
 
 
