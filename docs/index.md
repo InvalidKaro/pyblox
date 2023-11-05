@@ -20,7 +20,7 @@ ourselves without dealing with advanced Roblox-specific concepts.
 ## Installation
 To install pyblox from PyPI, you can install with pip:
 ```
-pip install py3bloxx
+pip install pyblox
 ```
 
 To install pyblox from git, run the following:

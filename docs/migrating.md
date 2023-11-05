@@ -4,9 +4,9 @@
 - The cache has been removed. When you call `client.get_XYZ`, you can guarantee that you'll always get a new object.
   Keep this in mind.
 - The events system has been removed. The polling behavior was hard to maintain and is out of scope for this project.
-- ro.py's gamepersistence system has been removed. It may be added in the future.
-- ro.py's trade system has been removed. We have no plans to reimplement it.
-- ro.py's SignalR-based notification system has been removed. It is out of scope for this project but may be added later
+- pyblox's gamepersistence system has been removed. It may be added in the future.
+- pyblox's trade system has been removed. We have no plans to reimplement it.
+- pyblox's SignalR-based notification system has been removed. It is out of scope for this project but may be added later
   as an extension.
 - `Client.filter_text()` has been removed. It may be added back in the future.
 - `Client.get_game_by_place_id()` and `Client.get_game_by_universe_id()` have been removed. Instead, use
@@ -20,6 +20,6 @@
 - The thumbnail system has been rewritten. For this reason, `BaseUser.thumbnails` no longer exists and you should use
   `Client.thumbnails` or `BaseXYZ.get_thumbnail` methods.
 - `Client.get_self()` is now `Client.get_authenticated_user()`.
-- The way objects were structured in ro.py has changed. In the past, objects would be responsible for their own requests
+- The way objects were structured in pyblox has changed. In the past, objects would be responsible for their own requests
   with an `update` method - now they take in data and parse it. If your code ever calls `.update`, please change it to
   instead grab the object again with `Client.get_XYZ()`.
