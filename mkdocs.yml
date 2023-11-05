@@ -76,7 +76,6 @@ plugins:
             show_root_heading: yes
   
   - social:
-      debug: false
       debug_color: yellow
       cards_layout_dir: layouts
       cards_layout: custom
