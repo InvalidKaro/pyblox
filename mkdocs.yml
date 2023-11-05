@@ -81,7 +81,7 @@ plugins:
       title: Pyblox Library
       description: Welcome to PyBlox! PyBlox is an asynchronous, object-oriented wrapper for the Roblox web API.
         
-- meta:
+  - meta:
       meta_file: .meta.yml
 
 
