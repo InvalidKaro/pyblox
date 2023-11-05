@@ -78,10 +78,11 @@ plugins:
   - social:
       debug: false
       debug_color: yellow
+      cards_layout_dir: layouts
       cards_layout: custom
       cards_layout_options:
         background_color: "#0FF1CE8F"
-        background_image: ./layouts/stairs.jpg
+        background_image: layouts/stairs.jpg
         title: Pyblox Library
         description: Welcome to PyBlox! PyBlox is an asynchronous, object-oriented wrapper for the Roblox web API.
         color: "#DE9151"
