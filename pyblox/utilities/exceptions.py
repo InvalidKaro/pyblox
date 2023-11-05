@@ -1,6 +1,6 @@
 """
 
-Contains exceptions used by ro.py.
+Contains exceptions used by pyblox.
 
 """
 
@@ -12,7 +12,7 @@ from httpx import Response
 
 class RobloxException(Exception):
     """
-    Base exception for all of ro.py.
+    Base exception for all of pyblox.
     """
     pass
 

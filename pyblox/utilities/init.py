@@ -1,5 +1,5 @@
 """
 
-Contains utilities used internally for ro.py.
+Contains utilities used internally for pyblox.
 
 """

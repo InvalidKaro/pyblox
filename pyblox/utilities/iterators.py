@@ -1,6 +1,6 @@
 """
 
-This module contains iterators used internally by ro.py to provide paginated information.
+This module contains iterators used internally by pyblox to provide paginated information.
 
 """
 from __future__ import annotations

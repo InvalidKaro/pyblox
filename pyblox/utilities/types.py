@@ -1,6 +1,6 @@
 """
 
-Contains types used internally by ro.py.
+Contains types used internally by pyblox.
 
 """
 

@@ -1,6 +1,6 @@
 """
 
-Contains the Client, which is the core object at the center of all ro.py applications.
+Contains the Client, which is the core object at the center of all pyblox applications.
 
 """
 

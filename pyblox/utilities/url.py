@@ -1,6 +1,6 @@
 """
 
-This module contains functions and objects used internally by ro.py to generate URLs.
+This module contains functions and objects used internally by pyblox to generate URLs.
 
 """
 

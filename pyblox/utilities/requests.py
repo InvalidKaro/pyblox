@@ -1,6 +1,6 @@
 """
 
-This module contains classes used internally by ro.py for sending requests to Roblox endpoints.
+This module contains classes used internally by pyblox for sending requests to Roblox endpoints.
 
 """
 
